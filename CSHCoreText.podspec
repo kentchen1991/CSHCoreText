@@ -18,6 +18,5 @@ Pod::Spec.new do |s|
   s.license      = "MIT (example)"
   s.author             = { "kentchen1991" => "email@address.com" }
   s.source       = { :git => "https://github.com/kentchen1991/CSHCoreText.git", :tag => "0.0.1" }
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
-
+  s.source_files  = "CSHCoreText", "CSHCoreText/**/*.{h,m}"
+end
