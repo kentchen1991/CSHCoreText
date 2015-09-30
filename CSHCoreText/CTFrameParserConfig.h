@@ -7,9 +7,9 @@
 //配置类，用于实现排版的可配置项
 
 #import <Foundation/Foundation.h>
-#import "CshHeader.h"
+
 #import <CoreGraphics/CoreGraphics.h>
-//#import <UIKit/UIKit.h>
+//#import <UIKit/UIKit.h>111
 @interface CTFrameParserConfig : NSObject
 @property(assign,nonatomic)CGFloat width;
 @property(assign,nonatomic)CGFloat fontSize;
